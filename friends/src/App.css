@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+.friends {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.friend {
+  padding: 2%;
+  border: 1px solid green;
+  background-color: darkcyan;
+  color: white;
+}
+
+form {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  align-items: center;
+  margin-left: 40%;
+}
